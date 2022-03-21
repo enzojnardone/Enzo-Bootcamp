@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Inputs, botones y enlances con CSS</title>
+  </head>
+  <body>
+    <header class="margin text-align background-color">
+      <img class="png" src="https://rolandocaldas.com/wp-content/uploads/2013/10/css3-html5-e1383236383597.png"</img>
+      <h3 class="font-weight">Inputs, Botones y Enlances con CSS</h3>
+    </header>
+    <main>
+      <form>
+       <fieldset class="border background-color">
+       <legend class="font-weight text-align">DATOS PERONSALES</legend>
+      <div>
+        <label for="name">Nombre:</label>
+        <input id="name" type="text" placeholder="Introduce tu nombre" minlength="10" maxlength="20">
+      </div>
+      <div>
+        <label for="age">Edad:</label>
+        <input id="age" type="number" placeholder="Introduce tu edad">
+      </div>
+      <div>
+        <label for="date">Fecha de nacimiento:</label>
+        <input id="date" type="date">
+      </div>
+      <div>
+        <label>País:</label>
+        <select>
+          <option value=""></option>
+          <option value="Italia">Italia</option>
+          <option value="España">España</option>
+          <option value="Francia">Francia</option>
+          <option value="Alemania">Alemania</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Estados Unidos">Estados Unidos</option>
+          <option value="Reino Unido">Reino Unido</option>
+        </select>
+      </div>
+      <div>
+        <label>Sexo:</label>
+        <select>
+          <option value=""></option>
+          <option value="Masculino">Masculino</option>
+          <option value="Femenino">Femenino</option>
+        </select>
+      </div>
+      <div>
+        <label>Observaciones:</label>
+        <textarea class="text-area" placeholder="Dejanos tu opinion"></textarea>
+      </div>
+      <div>
+        <input type="reset"></input>
+        <input type="submit"></input>
+        </fieldset>
+      </div>
+    </form>
+  </main>
+  <footer class="text-align">
+    <p>Siguenos en nuestras redes</p>
+    <a href="https://www.instagram.com/" class="text-decoration">Instagram</a>
+    <a href="https://www.facebook.com/" class="text-decoration">Facebook</a>
+    <a href="https://twitter.com/i/flow/login" class="text-decoration">Twitter</a>
+   </footer>
+  </body>
+</html>

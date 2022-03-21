@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+  }
+  .font-weight {
+    font-weight: bolder;
+  }
+  .font-size {
+    font-size: 20px;
+  }
+  .text-align {
+    text-align: center;
+  }
+  .text-decoration {
+    text-decoration: none;
+  }
+  .text-decoration {
+    text-decoration: none
+  }
+  .margin {
+    margin: 25px;
+    padding; 15;
+    border: 3px solid darkblue
+  }
+  .border {
+    border: 3px solid darkblue
+  }
+  label {
+    display: inline-block;
+    width: 110px
+  }
+  .png {
+    height: 5px;
+    width: 10px;
+    display: block;
+  }
+  .background-color {
+    background-color: #F8F8FF
+  }
